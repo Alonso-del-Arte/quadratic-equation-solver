@@ -56,6 +56,7 @@
 		61D3509A2AE37BE20064E778 /* FractionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractionTests.swift; sourceTree = "<group>"; };
 		61D3509C2AE37C650064E778 /* QuadraticNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadraticNumberTests.swift; sourceTree = "<group>"; };
 		61D3509E2AE37CAA0064E778 /* QuadraticPolynomialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadraticPolynomialTests.swift; sourceTree = "<group>"; };
+		61D350A02AE37D9B0064E778 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +87,7 @@
 		61D3505E2AE301CC0064E778 = {
 			isa = PBXGroup;
 			children = (
+				61D350A02AE37D9B0064E778 /* .gitignore */,
 				61D350692AE301CC0064E778 /* QuadraticEquationSolver */,
 				61D3507A2AE301CE0064E778 /* QuadraticEquationSolverTests */,
 				61D350842AE301CE0064E778 /* QuadraticEquationSolverUITests */,
