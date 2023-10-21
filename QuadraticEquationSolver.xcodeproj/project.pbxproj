@@ -59,6 +59,7 @@
 		61D3509E2AE37CAA0064E778 /* QuadraticPolynomialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadraticPolynomialTests.swift; sourceTree = "<group>"; };
 		61D350A02AE37D9B0064E778 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		61D350A12AE37E9A0064E778 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		61D350A32AE3815C0064E778 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +90,7 @@
 		61D3505E2AE301CC0064E778 = {
 			isa = PBXGroup;
 			children = (
+				61D350A32AE3815C0064E778 /* README.md */,
 				61D350A12AE37E9A0064E778 /* LICENSE */,
 				61D350A02AE37D9B0064E778 /* .gitignore */,
 				61D350692AE301CC0064E778 /* QuadraticEquationSolver */,
