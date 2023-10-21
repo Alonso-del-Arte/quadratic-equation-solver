@@ -14,6 +14,12 @@
 		61D3507C2AE301CE0064E778 /* QuadraticEquationSolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D3507B2AE301CE0064E778 /* QuadraticEquationSolverTests.swift */; };
 		61D350862AE301CE0064E778 /* QuadraticEquationSolverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D350852AE301CE0064E778 /* QuadraticEquationSolverUITests.swift */; };
 		61D350882AE301CE0064E778 /* QuadraticEquationSolverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D350872AE301CE0064E778 /* QuadraticEquationSolverUITestsLaunchTests.swift */; };
+		61D350952AE37A490064E778 /* QuadraticNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D350942AE37A490064E778 /* QuadraticNumber.swift */; };
+		61D350972AE37B100064E778 /* QuadraticPolynomial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D350962AE37B100064E778 /* QuadraticPolynomial.swift */; };
+		61D350992AE37B580064E778 /* Fraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D350982AE37B580064E778 /* Fraction.swift */; };
+		61D3509B2AE37BE20064E778 /* FractionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D3509A2AE37BE20064E778 /* FractionTests.swift */; };
+		61D3509D2AE37C650064E778 /* QuadraticNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D3509C2AE37C650064E778 /* QuadraticNumberTests.swift */; };
+		61D3509F2AE37CAA0064E778 /* QuadraticPolynomialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D3509E2AE37CAA0064E778 /* QuadraticPolynomialTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		61D350812AE301CE0064E778 /* QuadraticEquationSolverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuadraticEquationSolverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61D350852AE301CE0064E778 /* QuadraticEquationSolverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadraticEquationSolverUITests.swift; sourceTree = "<group>"; };
 		61D350872AE301CE0064E778 /* QuadraticEquationSolverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadraticEquationSolverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		61D350942AE37A490064E778 /* QuadraticNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadraticNumber.swift; sourceTree = "<group>"; };
+		61D350962AE37B100064E778 /* QuadraticPolynomial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadraticPolynomial.swift; sourceTree = "<group>"; };
+		61D350982AE37B580064E778 /* Fraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fraction.swift; sourceTree = "<group>"; };
+		61D3509A2AE37BE20064E778 /* FractionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractionTests.swift; sourceTree = "<group>"; };
+		61D3509C2AE37C650064E778 /* QuadraticNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadraticNumberTests.swift; sourceTree = "<group>"; };
+		61D3509E2AE37CAA0064E778 /* QuadraticPolynomialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadraticPolynomialTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +110,9 @@
 				61D3506C2AE301CC0064E778 /* ContentView.swift */,
 				61D3506E2AE301CD0064E778 /* Assets.xcassets */,
 				61D350702AE301CD0064E778 /* Preview Content */,
+				61D350942AE37A490064E778 /* QuadraticNumber.swift */,
+				61D350962AE37B100064E778 /* QuadraticPolynomial.swift */,
+				61D350982AE37B580064E778 /* Fraction.swift */,
 			);
 			path = QuadraticEquationSolver;
 			sourceTree = "<group>";
@@ -114,6 +129,9 @@
 			isa = PBXGroup;
 			children = (
 				61D3507B2AE301CE0064E778 /* QuadraticEquationSolverTests.swift */,
+				61D3509A2AE37BE20064E778 /* FractionTests.swift */,
+				61D3509C2AE37C650064E778 /* QuadraticNumberTests.swift */,
+				61D3509E2AE37CAA0064E778 /* QuadraticPolynomialTests.swift */,
 			);
 			path = QuadraticEquationSolverTests;
 			sourceTree = "<group>";
@@ -257,8 +275,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61D350952AE37A490064E778 /* QuadraticNumber.swift in Sources */,
 				61D3506D2AE301CC0064E778 /* ContentView.swift in Sources */,
+				61D350972AE37B100064E778 /* QuadraticPolynomial.swift in Sources */,
 				61D3506B2AE301CC0064E778 /* QuadraticEquationSolverApp.swift in Sources */,
+				61D350992AE37B580064E778 /* Fraction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +287,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61D3509D2AE37C650064E778 /* QuadraticNumberTests.swift in Sources */,
 				61D3507C2AE301CE0064E778 /* QuadraticEquationSolverTests.swift in Sources */,
+				61D3509F2AE37CAA0064E778 /* QuadraticPolynomialTests.swift in Sources */,
+				61D3509B2AE37BE20064E778 /* FractionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
